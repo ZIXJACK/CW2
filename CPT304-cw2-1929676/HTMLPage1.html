@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Holiday</title>
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>CW2_1929676</h1>
+    </div>
+
+    <div>
+        year (eg. 2019, 2012) <input type="text" value="" id="year">
+        <br>
+        Country (code, eg. CN, US) <input type="text" value="" id="Country">
+        <br>
+        <button type="button" onclick="getHoliday()">Get Holiday List</button>
+    </div>
+
+    <table id="holidayTable"></table>
+
+    <div>
+        City (eg. Beijing, New York) <input type="text" value="" id="city">
+        <br>
+        <button type="button" onclick="getHotels()">Get Hotel List</button>
+    </div>
+
+    <table id="hotelTable"></table>
+
+    <br>
+    <button onclick="getweather()" id="submit">Get Weather</button>
+
+
+
+    <script src="https://cdn.staticfile.org/jquery/1.8.3/jquery.min.js"></script>
+    <script src="getholiday.js"></script>
+
+    <script src="gethotel.js"></script>
+    <script src="getweather.js"></script>
+</body>
+</html>
